@@ -5,9 +5,8 @@ use App\Http\Controllers\AdminController;
 use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('front.welcome');
 })->name('welcome');
-
 Route::get('/dashboard', [UserController::class, 'dashboard'])->name('dashboard');
 Route::get('/login', [UserController::class, 'login'])->name('login');
 Route::post('/auth', [UserController::class, 'auth'])->name('auth');
