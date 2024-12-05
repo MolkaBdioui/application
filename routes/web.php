@@ -2,6 +2,8 @@
 
 use App\Http\Controllers\UserController;
 use App\Http\Controllers\AdminController;
+use Illuminate\Support\Facades\Auth;
+use Illuminate\Support\Facades\Request;
 use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
@@ -10,6 +12,11 @@ Route::get('/', function () {
 
 Route::get('/dashboard', [UserController::class, 'dashboard'])->name('dashboard');
 Route::get('/login', [UserController::class, 'login'])->name('login');
+Route::get('/logout', function(Request $request){
+
+    Auth::logout();
+    return redirect('/login');
+})->name('logout');
 Route::post('/auth', [UserController::class, 'auth'])->name('auth');
 Route::get('/accounts', [AdminController::class, 'accounts'])->name('accounts');
 Route::get('/accounts/new', [AdminController::class, 'add'])->name('accounts.add');
