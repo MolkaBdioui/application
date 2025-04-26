@@ -7,9 +7,8 @@ use Illuminate\Support\Facades\Request;
 use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('front.welcome');
 })->name('welcome');
-
 Route::get('/dashboard', [UserController::class, 'dashboard'])->name('dashboard');
 Route::get('/login', [UserController::class, 'login'])->name('login');
 Route::get('/logout', function(Request $request){
