@@ -11,7 +11,7 @@ Route::get('/', function () {
 })->name('welcome');
 Route::get('/dashboard', [UserController::class, 'dashboard'])->name('dashboard');
 Route::get('/login', [UserController::class, 'login'])->name('login');
-Route::get('/logout', function(Request $request){
+Route::get('/logout', function (Request $request) {
 
     Auth::logout();
     return redirect('/login');
