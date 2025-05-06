@@ -4,43 +4,35 @@
             <div class="col-xl-12">
                 <div class="brand-one-carousel owl-carousel">
                     <div class="single_brand_item">
-                        <a href="#"><img src="{{ asset('front-assets/images/brand/brand-1-1.jpg') }}"
+                        <a href="#"><img style="width: 170px;height: 134px" src="{{ asset('front-assets/images/brand/avioaero_rgb-atmsblu.png') }}"
                                 alt="brand"></a>
                     </div>
                     <div class="single_brand_item">
-                        <a href="#"><img src="{{ asset('front-assets/images/brand/brand-1-2.jpg') }}"
+                        <a href="#"><img style="width: 170px;height: 134px" src="{{ asset('front-assets/images/brand/GE_Aviation_logo.png') }}"
                                 alt="brand"></a>
                     </div>
                     <div class="single_brand_item">
-                        <a href="#"><img src="{{ asset('front-assets/images/brand/brand-1-3.jpg') }}"
+                        <a href="#"><img style="width: 170px;height: 134px" src="{{ asset('front-assets/images/brand/General_Electric_logo.png') }}"
                                 alt="brand"></a>
                     </div>
                     <div class="single_brand_item">
-                        <a href="#"><img src="{{ asset('front-assets/images/brand/brand-1-4.jpg') }}"
+                        <a href="#"><img style="width: 170px;height: 134px" src="{{ asset('front-assets/images/brand/Pratt.jpg') }}"
                                 alt="brand"></a>
                     </div>
                     <div class="single_brand_item">
-                        <a href="#"><img src="{{ asset('front-assets/images/brand/brand-1-5.jpg') }}"
+                        <a href="#"><img style="width: 170px;height: 134px" src="{{ asset('front-assets/images/brand/Rolls_royce_holdings_logo.png') }}"
                                 alt="brand"></a>
                     </div>
                     <div class="single_brand_item">
-                        <a href="#"><img src="{{ asset('front-assets/images/brand/brand-1-1.jpg') }}"
+                        <a href="#"><img style="width: 170px;height: 134px" src="{{ asset('front-assets/images/brand/Safran_logo.png') }}"
                                 alt="brand"></a>
                     </div>
                     <div class="single_brand_item">
-                        <a href="#"><img src="{{ asset('front-assets/images/brand/brand-1-2.jpg') }}"
+                        <a href="#"><img style="width: 170px;height: 134px" src="{{ asset('front-assets/images/brand/Unison-Logo.png') }}"
                                 alt="brand"></a>
                     </div>
                     <div class="single_brand_item">
-                        <a href="#"><img src="{{ asset('front-assets/images/brand/brand-1-3.jpg') }}"
-                                alt="brand"></a>
-                    </div>
-                    <div class="single_brand_item">
-                        <a href="#"><img src="{{ asset('front-assets/images/brand/brand-1-4.jpg') }}"
-                                alt="brand"></a>
-                    </div>
-                    <div class="single_brand_item">
-                        <a href="#"><img src="{{ asset('front-assets/images/brand/brand-1-5.jpg') }}"
+                        <a href="#"><img style="width: 50px;height: 50px" src="{{ asset('front-assets/images/brand/woodward-inc-logo-vector.png') }}"
                                 alt="brand"></a>
                     </div>
                 </div>

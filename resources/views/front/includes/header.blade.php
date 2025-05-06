@@ -39,7 +39,7 @@
                             <div class="logo">
                                 
                                 <a href="/">
-                                    <img src="https://media.licdn.com/dms/image/v2/D4D22AQHKeRYBlagz0g/feedshare-shrink_800/feedshare-shrink_800/0/1723734866676?e=2147483647&v=beta&t=F0I0anbSDaKBZMPnjhoOVz0AG_vO5XDBg1dX_UU-CJ4" alt=""
+                                    <img  src="{{ asset('front-assets/images/logo.png') }}" alt=""
                                         title="">
                                     </a>
                             </div>
